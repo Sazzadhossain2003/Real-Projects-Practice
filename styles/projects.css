@@ -187,3 +187,45 @@
     margin-top: 50px;
     text-align: end;
 }
+
+/* featured related style */
+.featured{
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 100px;
+   
+}
+.featured-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 96px;
+}
+
+.featured-image{
+    max-width: 404px;
+}
+
+.featured-context{
+    max-width: 610px;
+    margin-top: 50px;
+}
+
+.featured-text{
+    font-size: 2.37rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #0e0a3b;
+
+}
+
+.featured-paragraph{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 28px;
+    color: #6e6b6b;
+    margin-bottom: 12px;
+}
+.bttn{
+    border-radius: 0;
+    padding-right: 10px 10px;
+}
