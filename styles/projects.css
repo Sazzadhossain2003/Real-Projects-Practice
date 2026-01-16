@@ -6,3 +6,93 @@
   font-weight: 400;
   font-style: normal;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #b8b7b7a0; */
+}
+
+
+
+/* header related style */
+
+
+.navber{
+    display: flex;
+     max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 85px;
+    justify-content: space-between;
+    
+}
+
+.nav-links{
+    display: flex;
+    gap: 34px;
+}
+
+.nav-item{
+   list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.nav-title{
+    font-size: 1.50rem;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+/* banner style */
+.nav-banner{
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 140px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    
+}
+
+.banner{
+    max-width: 582px;
+}
+.banner-text{
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 16px;
+    color: #3A3A3A
+}
+
+.banner-paragraph{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+.btn{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #E02C6D;
+    padding: 24px;
+    border-radius: 41px;
+    border: none;
+}
+
+.banner-image{
+
+    max-width: 440px;
+    margin-left: 150px;
+    margin-top: -60px;
+    background-image: url(../images/Circle\ design.svg) ;
+    color:  #F1E4FF;
+    
+}
