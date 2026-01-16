@@ -96,3 +96,14 @@
     color:  #F1E4FF;
     
 }
+
+/* companies style */
+.compnaies-image{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 110px;
+    gap: 70px;
+    filter: blur(50%);
+}
