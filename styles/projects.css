@@ -267,3 +267,12 @@ footer{
     justify-content: center;
     filter: var(#ffffff);
 }
+
+/* button */
+.primary, .collection-more:hover{
+   cursor: pointer;
+   
+}
+.primary:hover{
+    background-color: #ca955c;
+}
