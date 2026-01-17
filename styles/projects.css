@@ -207,7 +207,7 @@
 
 .featured-context{
     max-width: 610px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .featured-text{
@@ -228,4 +228,42 @@
 .bttn{
     border-radius: 0;
     padding-right: 10px 10px;
+}
+
+/* footer related style */
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #0e0b30;
+}
+
+.last-container{
+    padding: 50px;
+    /* max-width: 262px; */
+   
+
+}
+
+.last-title{
+    font-size: 1.50rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.last-text{
+    font-size: 0.97rem;
+    font-weight: 700;
+    color: #D9DBE1;
+    line-height: 24px;
+    margin-bottom: 18px;
+}
+
+.last-image{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    filter: var(#ffffff);
 }
